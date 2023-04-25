@@ -24,18 +24,18 @@ test("Login test demo", async() => {
     await page.click("input[value='Login']"); //clicking login button
 
 
-    await page.waitForTimeout(5000);
+    await page.waitForTimeout(3000);
     
     // to navigate to the new tab with existing session 
     const page1 = await context.newPage();
     await page1.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
-    await page.waitForTimeout(5000);  // wait is to validate
+    await page.waitForTimeout(3000);  // wait is to validate
 
 
     // to navigate with new tab with new session 
     const newContext = await browser.newContext();
     const newPage = await newContext.newPage();
     await newPage.goto("https://ecommerce-playground.lambdatest.io/index.php?route=account/account");
-    await page.waitForTimeout(5000);  // wait is to validate
+    await page.waitForTimeout(3000);  // wait is to validate
 
 })

@@ -14,13 +14,13 @@
       {
         "outputDir": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results",
         "repeatEach": 1,
-        "retries": 2,
+        "retries": 0,
         "id": "",
         "name": "",
         "testDir": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript",
         "testIgnore": [],
         "testMatch": [
-          "tests/RecordedTest.ts"
+          "**/?(*.)@(spec|test).*"
         ],
         "timeout": 30000
       }
@@ -58,8 +58,630 @@
   },
   "suites": [
     {
-      "title": "tests/RecordedTest.ts",
-      "file": "tests/RecordedTest.ts",
+      "title": "tests/Alerts.test.ts",
+      "file": "tests/Alerts.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Handling Alerts  -- Java Script Alert Box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1597,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "I am an alert box!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:22:59.688Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f897639b6d06d250c29-f89eaba20598b9358c4c",
+          "file": "tests/Alerts.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Handling Alerts  -- Java Script Confirm Box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2130,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Press a button!\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:02.146Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f897639b6d06d250c29-87eaf16d0986fec3f502",
+          "file": "tests/Alerts.test.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "Handling Alerts  -- Java Script Alert Box with text to be entered",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 843,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Enter name\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:04.278Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f897639b6d06d250c29-a6b774f64b7e1e7de59c",
+          "file": "tests/Alerts.test.ts",
+          "line": 40,
+          "column": 5
+        },
+        {
+          "title": "Handling Alerts  --Bootstrap Modal Example for Automation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1266,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:05.121Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f897639b6d06d250c29-c1eb95a024c0aa028245",
+          "file": "tests/Alerts.test.ts",
+          "line": 60,
+          "column": 5
+        },
+        {
+          "title": "Handling Alerts  --Bootstrap Multiple Modal Example for Automation",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 1615,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:06.388Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9f897639b6d06d250c29-b68edde983f73bb7ac88",
+          "file": "tests/Alerts.test.ts",
+          "line": 70,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/BasicInteraction.test.ts",
+      "file": "tests/BasicInteraction.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interaction with single input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 2293,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Please enter your Message\n"
+                    },
+                    {
+                      "text": "Before entering data\n"
+                    },
+                    {
+                      "text": "After entering dataHi Naresh\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:22:59.689Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "72c64018b7ac67cc4f30-116257d8851e739c1e32",
+          "file": "tests/BasicInteraction.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Interaction with Multiple input",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 761,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "988\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:02.841Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "72c64018b7ac67cc4f30-acb8950136b78b192e8b",
+          "file": "tests/BasicInteraction.test.ts",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Interaction with check Box",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 3012,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:03.602Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "72c64018b7ac67cc4f30-3e64251dd8d430482c74",
+          "file": "tests/BasicInteraction.test.ts",
+          "line": 39,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/Dropdowns.test.ts",
+      "file": "tests/Dropdowns.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Select List Demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 3784,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:22:59.691Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39c25e09be2ba1022ca6-45225bd15557571e0d47",
+          "file": "tests/Dropdowns.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Multi Select List Demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 3445,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:04.333Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39c25e09be2ba1022ca6-c62fb9ae95e0e4165891",
+          "file": "tests/Dropdowns.test.ts",
+          "line": 16,
+          "column": 5
+        },
+        {
+          "title": "Bootstrap Dropdown - Single Select - Search and Select country",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 4454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:07.779Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39c25e09be2ba1022ca6-733a7ef815825b89e266",
+          "file": "tests/Dropdowns.test.ts",
+          "line": 34,
+          "column": 5
+        },
+        {
+          "title": "Bootstrap Dropdown - Single Select - Search and Select country using common function",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 4477,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:23:12.234Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "39c25e09be2ba1022ca6-32d91d6a915aa7fd30db",
+          "file": "tests/Dropdowns.test.ts",
+          "line": 47,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/Login.test.ts",
+      "file": "tests/Login.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login test demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 18676,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-25T17:22:59.691Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dcb31983a82c67060828-27af02da3f49d405e6a6",
+          "file": "tests/Login.test.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/Recorded.test.ts",
+      "file": "tests/Recorded.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
@@ -76,24 +698,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 8189,
+                  "duration": 6417,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-24T18:57:45.244Z",
+                  "startTime": "2023-04-25T17:23:06.618Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-RecordedTest.ts-Login-and-LogOut-test-using-CodeGen/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-RecordedTest.ts-Login-and-LogOut-test-using-CodeGen/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/test-finished-1.png"
                     }
                   ]
                 }
@@ -101,8 +723,8 @@
               "status": "expected"
             }
           ],
-          "id": "cd0b04c8c94628294916-8744d9d8f89f536134d9",
-          "file": "tests/RecordedTest.ts",
+          "id": "6316a6c9b04444c55f5f-f70b86ff952c64b27734",
+          "file": "tests/Recorded.test.ts",
           "line": 6,
           "column": 5
         }
