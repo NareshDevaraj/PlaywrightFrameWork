@@ -38,7 +38,7 @@ test("Upload File",async ( {page} ) => {
 })
 
 
-test.only("Upload File method 2 ",async ( {page} ) => {
+test("Upload File method 2 ",async ( {page} ) => {
     
     await page.goto("https://blueimp.github.io/jQuery-File-Upload/");
    
