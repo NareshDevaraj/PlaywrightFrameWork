@@ -78,7 +78,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1597,
+                  "duration": 9638,
                   "errors": [],
                   "stdout": [
                     {
@@ -87,7 +87,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:22:59.688Z",
+                  "startTime": "2023-04-26T15:05:47.856Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -125,7 +125,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2130,
+                  "duration": 1902,
                   "errors": [],
                   "stdout": [
                     {
@@ -134,7 +134,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:02.146Z",
+                  "startTime": "2023-04-26T15:05:57.920Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -172,7 +172,7 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 843,
+                  "duration": 1812,
                   "errors": [],
                   "stdout": [
                     {
@@ -181,7 +181,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:04.278Z",
+                  "startTime": "2023-04-26T15:05:59.823Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -219,12 +219,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1266,
+                  "duration": 2162,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:05.121Z",
+                  "startTime": "2023-04-26T15:06:01.636Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -262,12 +262,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1615,
+                  "duration": 1974,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:06.388Z",
+                  "startTime": "2023-04-26T15:06:03.799Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -313,7 +313,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 2293,
+                  "duration": 9462,
                   "errors": [],
                   "stdout": [
                     {
@@ -328,7 +328,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:22:59.689Z",
+                  "startTime": "2023-04-26T15:05:47.860Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -366,7 +366,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 761,
+                  "duration": 1801,
                   "errors": [],
                   "stdout": [
                     {
@@ -375,7 +375,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:02.841Z",
+                  "startTime": "2023-04-26T15:05:57.766Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -413,12 +413,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 3012,
+                  "duration": 3774,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:03.602Z",
+                  "startTime": "2023-04-26T15:05:59.568Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -444,6 +444,157 @@
       ]
     },
     {
+      "title": "tests/calender.test.ts",
+      "file": "tests/calender.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "calender using fill function",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 9502,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:05:47.859Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b6b781e32c609f075b7-f693140efc5732968190",
+          "file": "tests/calender.test.ts",
+          "line": 5,
+          "column": 5
+        },
+        {
+          "title": "calender using moment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2626,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this month?true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:05:57.820Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b6b781e32c609f075b7-2f0be435594ac24536f6",
+          "file": "tests/calender.test.ts",
+          "line": 20,
+          "column": 5
+        },
+        {
+          "title": "calender using moment -- as re usable funtion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5363,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "this month?true\n"
+                    },
+                    {
+                      "text": "this month?false\n"
+                    },
+                    {
+                      "text": "this month?true\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:06:00.446Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "8b6b781e32c609f075b7-1169c74e1889751be23f",
+          "file": "tests/calender.test.ts",
+          "line": 55,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "tests/Dropdowns.test.ts",
       "file": "tests/Dropdowns.test.ts",
       "column": 0,
@@ -462,14 +613,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 3784,
+                  "duration": 12713,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:22:59.691Z",
+                  "startTime": "2023-04-26T15:05:47.861Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -505,14 +656,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 3445,
+                  "duration": 4381,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:04.333Z",
+                  "startTime": "2023-04-26T15:06:00.995Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -548,14 +699,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 4454,
+                  "duration": 5182,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:07.779Z",
+                  "startTime": "2023-04-26T15:06:05.377Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -591,14 +742,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 4477,
+                  "duration": 4694,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:12.234Z",
+                  "startTime": "2023-04-26T15:06:10.561Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -624,6 +775,108 @@
       ]
     },
     {
+      "title": "tests/Frames.test.ts",
+      "file": "tests/Frames.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interact with frames",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 5658,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "No.of frames: 15\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:06:03.349Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86718a4ee0f6503cc488-d985f183b3500b59807a",
+          "file": "tests/Frames.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Interact with frames menthod 2 and inner frame",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 5777,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "No.of frames: 14\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:06:09.007Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "86718a4ee0f6503cc488-a6aac89f3037bbb6b991",
+          "file": "tests/Frames.test.ts",
+          "line": 25,
+          "column": 5
+        }
+      ]
+    },
+    {
       "title": "tests/Login.test.ts",
       "file": "tests/Login.test.ts",
       "column": 0,
@@ -642,14 +895,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 18676,
+                  "duration": 17363,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:22:59.691Z",
+                  "startTime": "2023-04-26T15:06:05.779Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -698,14 +951,14 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 6417,
+                  "duration": 8567,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-04-25T17:23:06.618Z",
+                  "startTime": "2023-04-26T15:06:05.816Z",
                   "attachments": [
                     {
                       "name": "video",
@@ -726,6 +979,145 @@
           "id": "6316a6c9b04444c55f5f-f70b86ff952c64b27734",
           "file": "tests/Recorded.test.ts",
           "line": 6,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests/windows.test.ts",
+      "file": "tests/windows.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Interact with single tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 2400,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://twitter.com/Lambdatesting\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:06:14.386Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-2.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98c21ebe87e39c315e15-76bee8c3f249cb3dcdd6",
+          "file": "tests/windows.test.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Interact with multiple tabs",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5080,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "No.of tabs2\n"
+                    },
+                    {
+                      "text": "https://www.lambdatest.com/selenium-playground/window-popup-modal-demo\n"
+                    },
+                    {
+                      "text": "https://www.facebook.com/lambdatest/\n"
+                    },
+                    {
+                      "text": "LambdaTest\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-04-26T15:06:16.787Z",
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-1.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-2.webm"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video.webm"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-1.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-2.png"
+                    },
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/nareshdevaraj/Desktop/Playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-3.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "98c21ebe87e39c315e15-ba3b63f10999a22caf9d",
+          "file": "tests/windows.test.ts",
+          "line": 23,
           "column": 5
         }
       ]
