@@ -44,15 +44,15 @@ test("Interact with multiple tabs",async ( {page} ) => {
 
     })
      // to find the index value of the page 
-     let facebookPage: Page;
-     for (let index = 0; index < pages.length; index++)   {
-        const url = pages[index].url()
-        if(url == "https://www.facebook.com/lambdatest/"){
-            facebookPage = pages[index];
-        }
-     }
-     const text = await facebookPage.textContent("//h1")
-     console.log(text)
+     //let facebookPage: Page;
+     //for (let index = 0; index < pages.length; index++)   {
+     //   const url = pages[index].url()
+     //   if(url == "https://www.facebook.com/lambdatest/"){
+      //      facebookPage = pages[index];
+      //  }
+     //}
+     //const text = await facebookPage.textContent("//h1")
+     //console.log(text)
 
 
 
