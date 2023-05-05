@@ -4,6 +4,7 @@ const config: PlaywrightTestConfig ={
 
    //testMatch: ["tests/uploadDownload.Test.ts"],
     use: {
+        baseURL : "https://ecommerce-playground.lambdatest.io/index.php?",
         headless: false,    // make it true before pusing it to Gitlab
         screenshot: "on",   //can be off or used when test is failed alone
         video: "on"         //can be off or used when test is failed alone
