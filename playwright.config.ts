@@ -2,7 +2,7 @@ import { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig ={
 
-   //testMatch: ["tests/uploadDownload.Test.ts"],
+   //testMatch: ["pageObjectMethodTest/addToCartUsingFixture.test.ts"],
     use: {
         baseURL : "https://ecommerce-playground.lambdatest.io/index.php?",
         headless: false,    // make it true before pusing it to Gitlab

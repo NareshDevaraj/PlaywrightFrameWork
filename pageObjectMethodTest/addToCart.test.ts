@@ -1,5 +1,5 @@
  import { expect, test } from "@playwright/test";
-import registerPage from "../pageObjectMethod/registerPage"
+import RegisterPage from "../pageObjectMethod/registerPage"
 import LoginPage from "../pageObjectMethod/loginPage"
 import megamenuPage from "../pageObjectMethod/megamenuPage"
 import homePage from "../pageObjectMethod/homePage";
@@ -11,7 +11,7 @@ const confirmpassword = "Anto@1234";
 
 test.describe("Test based on pageObject Method" , async () => {
     test("Rgister test 01", async ( {page, baseURL} ) => {
-        const register = new registerPage(page);
+        const register = new RegisterPage(page);
         await page.goto(`${baseURL}route=account/register`);
         await register.enterFirstName("Anto");
         await register.enterLasttName("Anto");

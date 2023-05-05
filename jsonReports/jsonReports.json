@@ -12,12 +12,12 @@
     "preserveOutput": "always",
     "projects": [
       {
-        "outputDir": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results",
+        "outputDir": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results",
         "repeatEach": 1,
         "retries": 0,
         "id": "",
         "name": "",
-        "testDir": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript",
+        "testDir": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript",
         "testIgnore": [],
         "testMatch": [
           "**/?(*.)@(spec|test).*"
@@ -47,8 +47,8 @@
       "max": 5,
       "threshold": 15000
     },
-    "configFile": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/playwright.config.ts",
-    "rootDir": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript",
+    "configFile": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/playwright.config.ts",
+    "rootDir": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript",
     "quiet": false,
     "shard": null,
     "updateSnapshots": "missing",
@@ -57,6 +57,50 @@
     "webServer": null
   },
   "suites": [
+    {
+      "title": "fixture/fixture.test.ts",
+      "file": "fixture/fixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "fixture demo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "\u001b[33m26\u001b[39m ANTO1234@GMAIL.COM\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-05-05T15:26:58.751Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "df03b2918d9969d3f6d9-213a9065c88e54d9b82f",
+          "file": "fixture/fixture.test.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
     {
       "title": "pageObjectMethodTest/addToCart.test.ts",
       "file": "pageObjectMethodTest/addToCart.test.ts",
@@ -83,24 +127,24 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 4950,
+                      "duration": 4256,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-05-05T14:02:33.518Z",
+                      "startTime": "2023-05-05T15:26:58.758Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Rgister-test-01/video.webm"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Rgister-test-01/video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Rgister-test-01/test-finished-1.png"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Rgister-test-01/test-finished-1.png"
                         }
                       ]
                     }
@@ -126,24 +170,24 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 3507,
+                      "duration": 2910,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-05-05T14:02:38.955Z",
+                      "startTime": "2023-05-05T15:27:03.374Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Login-test-02/video.webm"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Login-test-02/video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Login-test-02/test-finished-1.png"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-Login-test-02/test-finished-1.png"
                         }
                       ]
                     }
@@ -169,24 +213,24 @@
                   "projectName": "",
                   "results": [
                     {
-                      "workerIndex": 0,
+                      "workerIndex": 1,
                       "status": "passed",
-                      "duration": 5196,
+                      "duration": 4552,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-05-05T14:02:42.463Z",
+                      "startTime": "2023-05-05T15:27:06.286Z",
                       "attachments": [
                         {
                           "name": "video",
                           "contentType": "video/webm",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-add-to-cart-03/video.webm"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-add-to-cart-03/video.webm"
                         },
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
-                          "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-add-to-cart-03/test-finished-1.png"
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCart-Test-based-on-pageObject-Method-add-to-cart-03/test-finished-1.png"
                         }
                       ]
                     }
@@ -197,6 +241,152 @@
               "id": "79f969c74331a6375ebf-d3524cf2e1b64fa6b91e",
               "file": "pageObjectMethodTest/addToCart.test.ts",
               "line": 37,
+              "column": 13
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+      "file": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Test based on pageObject Method",
+          "file": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Rgister test 01",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 4410,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-05T15:26:58.766Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-Rgister-test-01/video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-Rgister-test-01/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cee61bf065634f9b2df5-d6d5690cfdbe1d5560d3",
+              "file": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+              "line": 7,
+              "column": 9
+            },
+            {
+              "title": "Login test 02",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 3960,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-05T15:27:03.603Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-Login-test-02/video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-Login-test-02/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cee61bf065634f9b2df5-df7a4f6521e493b64824",
+              "file": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+              "line": 22,
+              "column": 13
+            },
+            {
+              "title": "add to cart 03",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "",
+                  "projectName": "",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 4955,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-05-05T15:27:07.564Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-add-to-cart-03/video.webm"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/pageObjectMethodTest-addToCartUsingFixture-Test-based-on-pageObject-Method-add-to-cart-03/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "cee61bf065634f9b2df5-038ce944658649363b40",
+              "file": "pageObjectMethodTest/addToCartUsingFixture.test.ts",
+              "line": 31,
               "column": 13
             }
           ]
@@ -222,9 +412,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1493,
+                  "duration": 4803,
                   "errors": [],
                   "stdout": [
                     {
@@ -233,17 +423,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:33.516Z",
+                  "startTime": "2023-05-05T15:26:58.760Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box/test-finished-1.png"
                     }
                   ]
                 }
@@ -269,9 +459,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1135,
+                  "duration": 1121,
                   "errors": [],
                   "stdout": [
                     {
@@ -280,17 +470,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:35.499Z",
+                  "startTime": "2023-05-05T15:27:03.988Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Confirm-Box/test-finished-1.png"
                     }
                   ]
                 }
@@ -316,9 +506,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1240,
+                  "duration": 1960,
                   "errors": [],
                   "stdout": [
                     {
@@ -327,17 +517,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:36.634Z",
+                  "startTime": "2023-05-05T15:27:05.110Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts----Java-Script-Alert-Box-with-text-to-be-entered/test-finished-1.png"
                     }
                   ]
                 }
@@ -363,24 +553,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1421,
+                  "duration": 1860,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:37.875Z",
+                  "startTime": "2023-05-05T15:27:07.070Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Modal-Example-for-Automation/test-finished-1.png"
                     }
                   ]
                 }
@@ -406,24 +596,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 1722,
+                  "duration": 2319,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:39.297Z",
+                  "startTime": "2023-05-05T15:27:08.931Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Alerts-Handling-Alerts---Bootstrap-Multiple-Modal-Example-for-Automation/test-finished-1.png"
                     }
                   ]
                 }
@@ -457,9 +647,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1482,
+                  "duration": 2376,
                   "errors": [],
                   "stdout": [
                     {
@@ -474,17 +664,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:33.527Z",
+                  "startTime": "2023-05-05T15:26:58.763Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-single-input/test-finished-1.png"
                     }
                   ]
                 }
@@ -510,9 +700,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1092,
+                  "duration": 3397,
                   "errors": [],
                   "stdout": [
                     {
@@ -521,17 +711,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:35.412Z",
+                  "startTime": "2023-05-05T15:27:01.560Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-Multiple-input/test-finished-1.png"
                     }
                   ]
                 }
@@ -557,24 +747,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1243,
+                  "duration": 1720,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:36.505Z",
+                  "startTime": "2023-05-05T15:27:04.958Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-BasicInteraction-Interaction-with-check-Box/test-finished-1.png"
                     }
                   ]
                 }
@@ -608,24 +798,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1318,
+                  "duration": 1922,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:33.534Z",
+                  "startTime": "2023-05-05T15:27:06.685Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-fill-function/test-finished-1.png"
                     }
                   ]
                 }
@@ -651,9 +841,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2368,
+                  "duration": 2340,
                   "errors": [],
                   "stdout": [
                     {
@@ -662,17 +852,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:35.300Z",
+                  "startTime": "2023-05-05T15:27:08.608Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment/test-finished-1.png"
                     }
                   ]
                 }
@@ -698,9 +888,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5057,
+                  "duration": 5009,
                   "errors": [],
                   "stdout": [
                     {
@@ -715,17 +905,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:37.669Z",
+                  "startTime": "2023-05-05T15:27:10.949Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-calender-calender-using-moment----as-re-usable-funtion/test-finished-1.png"
                     }
                   ]
                 }
@@ -759,24 +949,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 3445,
+                  "duration": 3886,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:37.753Z",
+                  "startTime": "2023-05-05T15:27:10.842Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Select-List-Demo/test-finished-1.png"
                     }
                   ]
                 }
@@ -802,24 +992,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 3807,
+                  "duration": 5492,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:41.198Z",
+                  "startTime": "2023-05-05T15:27:14.729Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Multi-Select-List-Demo/test-finished-1.png"
                     }
                   ]
                 }
@@ -845,24 +1035,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 4384,
+                  "duration": 4691,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:45.006Z",
+                  "startTime": "2023-05-05T15:27:20.222Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country/test-finished-1.png"
                     }
                   ]
                 }
@@ -888,24 +1078,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 5229,
+                  "duration": 4700,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:49.391Z",
+                  "startTime": "2023-05-05T15:27:24.914Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Dropdowns-Bootstrap-Dropdown---Single-Select---Search-and-Select-country-using-common-function/test-finished-1.png"
                     }
                   ]
                 }
@@ -939,28 +1129,28 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 5514,
+                  "duration": 5495,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "No.of frames: 15\n"
+                      "text": "No.of frames: 16\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:41.022Z",
+                  "startTime": "2023-05-05T15:27:11.253Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames/test-finished-1.png"
                     }
                   ]
                 }
@@ -986,28 +1176,28 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 5087,
+                  "duration": 5068,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "No.of frames: 15\n"
+                      "text": "No.of frames: 16\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:46.537Z",
+                  "startTime": "2023-05-05T15:27:16.748Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Frames-Interact-with-frames-menthod-2-and-inner-frame/test-finished-1.png"
                     }
                   ]
                 }
@@ -1041,29 +1231,29 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 16704,
+                  "duration": 16141,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:42.730Z",
+                  "startTime": "2023-05-05T15:27:12.524Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-1.png"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-2.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-2.png"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-3.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Login-Login-test-demo/test-finished-3.png"
                     }
                   ]
                 }
@@ -1099,22 +1289,22 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8919,
+                  "duration": 7796,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:47.663Z",
+                  "startTime": "2023-05-05T15:27:15.961Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-Recorded-Login-and-LogOut-test-using-CodeGen/test-finished-1.png"
                     }
                   ]
                 }
@@ -1148,24 +1338,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 701,
+                  "duration": 2039,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:51.628Z",
+                  "startTime": "2023-05-05T15:27:21.822Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Download-File/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Download-File/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Download-File/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Download-File/test-finished-1.png"
                     }
                   ]
                 }
@@ -1191,24 +1381,24 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 823,
+                  "duration": 1350,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:52.329Z",
+                  "startTime": "2023-05-05T15:27:23.862Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File/test-finished-1.png"
                     }
                   ]
                 }
@@ -1234,9 +1424,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 4058,
+                  "duration": 4247,
                   "errors": [],
                   "stdout": [
                     {
@@ -1245,17 +1435,17 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:53.153Z",
+                  "startTime": "2023-05-05T15:27:25.213Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File-method-2-/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File-method-2-/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File-method-2-/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-uploadDownload-Upload-File-method-2-/test-finished-1.png"
                     }
                   ]
                 }
@@ -1289,9 +1479,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 1074,
+                  "duration": 1879,
                   "errors": [],
                   "stdout": [
                     {
@@ -1303,22 +1493,22 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:54.622Z",
+                  "startTime": "2023-05-05T15:27:23.762Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-1.png"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-2.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-single-tabs/test-finished-2.png"
                     }
                   ]
                 }
@@ -1344,9 +1534,9 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 3218,
+                  "duration": 2021,
                   "errors": [],
                   "stdout": [
                     {
@@ -1361,32 +1551,32 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-05-05T14:02:55.697Z",
+                  "startTime": "2023-05-05T15:27:25.642Z",
                   "attachments": [
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-2.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-2.webm"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-1.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video-1.webm"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video.webm"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/video.webm"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-1.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-1.png"
                     },
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "/Users/nareshdevaraj/Desktop/test/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-2.png"
+                      "path": "/Users/nareshdevaraj/Desktop/playwright/playwrightwithtypescript/test-results/tests-windows-Interact-with-multiple-tabs/test-finished-2.png"
                     }
                   ]
                 }
