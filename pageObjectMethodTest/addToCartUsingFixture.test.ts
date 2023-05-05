@@ -1,7 +1,9 @@
  import { expect, test } from "../base/pomFixture";
 import * as data from "../test-data/addToCart-test-data.json"
 
-
+//test.use({
+  //  browserName: "firefox"
+//})
 
 test.describe("Test based on pageObject Method" , async () => {
     test("Rgister test 01", async ( {page, baseURL , RegisterPage} ) => {

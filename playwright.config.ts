@@ -1,8 +1,39 @@
-import { PlaywrightTestConfig } from '@playwright/test';
+import { PlaywrightTestConfig, devices } from '@playwright/test';
 
 const config: PlaywrightTestConfig ={
+    
+   // "test": "npx playwright test --project=chrome"   add this command in package.json to run only in chrome
+    projects: [
+        {
+            name: "chrome",
+            use: {
+                ...devices["Desktop Chrome"]
+            }
+        },
+       {
+            name: "firefox",
+            use: {
+                ...devices["Desktop Firefox"]
+            }
+        },
+        {
+            name: "Safari",
+            use: {
+                ...devices["Desktop Safari"]
+            }
+        },
+        {
+            name: "Ipad",
+            use: {
+                ...devices["iPad (gen 7) landscape"]
+            }
+        },
 
-   //testMatch: ["pageObjectMethodTest/addToCartUsingFixture.test.ts"],
+    ],
+
+
+
+  //testMatch: ["pageObjectMethodTest/addToCartUsingFixture.test.ts"],
     use: {
         baseURL : "https://ecommerce-playground.lambdatest.io/index.php?",
         headless: false,    // make it true before pusing it to Gitlab
